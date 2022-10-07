@@ -22,3 +22,14 @@ const bananas = plural`[0] has eaten [#] banana[|s].`
 console.log(bananas(1, 'Josh')) // Josh has eaten 1 banana.
 console.log(bananas(2, 'Steve')) // Steve has eaten 2 bananas.
 ```
+
+
+You may use the `#` symbol the `[single|plural]` syntax as well. 
+
+
+```js
+const bananas = plural`[0] has eaten [a|#] banana[|s].`
+
+console.log(bananas(1, 'Josh')) // Josh has eaten a banana.
+console.log(bananas(2, 'Steve')) // Steve has eaten 2 bananas.
+```
