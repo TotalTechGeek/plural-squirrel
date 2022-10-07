@@ -1,6 +1,6 @@
 
-const groupMatch = /\[[A-Za-z0-9# ]*\|[A-Za-z0-9# ]*\]/
-const maxGroupMatch = /\[[A-Za-z0-9# ]*\|[A-Za-z0-9# ]*\|[A-Za-z0-9# ]*\]/
+const groupMatch = /\[[^\|\[\]]*\|[^\|\[\]]*\]/
+const maxGroupMatch = /\[[^\|\[\]]*\|[^\|\[\]]*\|[^\|\[\]]*\]/
 const numberMatch = /\[#\]/
 const argsMatch = /\[[0-9]+\]/
 
