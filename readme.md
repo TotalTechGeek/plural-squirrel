@@ -1,5 +1,7 @@
 # Plural Squirrel
 
+[![Coverage Status](https://coveralls.io/repos/github/TotalTechGeek/plural-squirrel/badge.svg?branch=master)](https://coveralls.io/github/TotalTechGeek/plural-squirrel?branch=master)
+
 Looking for a simple library to handle your pluralization? 
 
 Plural Squirrel allows you to write simple templates to handle plural text.
