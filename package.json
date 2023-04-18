@@ -6,9 +6,10 @@
   "author": "Jesse Daniel Mitchell",
   "license": "MIT",
   "scripts": {
-    "test": "pineapple -i *.js"
+    "test": "c8 --reporter=text --reporter=lcov pineapple -i *.js"
   },
   "devDependencies": {
+    "c8": "^7.13.0",
     "pineapple": "^0.19.1"
   }
 }
