@@ -4,5 +4,11 @@
   "description": "Makes strings plural efficiently",
   "main": "index.js",
   "author": "Jesse Daniel Mitchell",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "pineapple -i *.js"
+  },
+  "devDependencies": {
+    "pineapple": "^0.19.1"
+  }
 }
